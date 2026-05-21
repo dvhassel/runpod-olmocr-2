@@ -70,5 +70,4 @@ def handler(job):
     except Exception as e:
         return {"error": f"Inference failed: {str(e)}"}
 
-if __name__ == '__main__':
-    runpod.serverless.start({'handler': handler })
+runpod.serverless.start({'handler': handler })
