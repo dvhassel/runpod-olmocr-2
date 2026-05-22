@@ -4,7 +4,7 @@ from PIL import Image
 from vllm import LLM, SamplingParams
 from olmocr.prompts import build_no_anchoring_v4_yaml_prompt
 
-MODEL_NAME = "allenai/olmOCR-2-7B-1025-FP8"
+MODEL_NAME = "allenai/olmOCR-2-7B-1025"
 
 _llm = None
 _llm_error = None
